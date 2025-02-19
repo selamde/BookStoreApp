@@ -16,7 +16,7 @@ A book-selling website forntend that allows users to browse, search, and discove
 
 1. Clone the repository:
 
-> git clone https://github.com/selamde/MovieSearchingApp
+> git clone https://github.com/selamde/BookStoreApp.git
 
 2. Navigate to the project folder:
 
