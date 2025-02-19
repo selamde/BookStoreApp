@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+
+
+
+
+@utility container{
+    margin-inline:auto;
+    padding-inline:2rem;
+}
+
+
+
+
+/* @theme{
+    --color-primary: ;
+    --color-secondary:;
+    --
+} */
+
+@font-face {
+    font-family: 'Danger Zone';
+    src: url('/src/assets/Danger Zone Warning.ttf');
+   
+  }
+
+@font-Face{
+    font-family: 'Test';
+    src: url('/src/assets/old_stamper.ttf');
+}
+@font-face{
+    font-family: 'Bouncy';
+    src: url('/src/assets/Bouncy-PERSONAL_USE_ONLY.otf');
+}
+
+@font-face{
+    font-family: 'perstige' ;
+    src: url('/src/assets/Modern Prestige DEMO.otf');
+}
+
+@font-face{
+    font-family: 'Corza';
+    src: url('/src/assets/Corza.otf');
+}
+
+
+
+@theme{
+    
+    --color-primary: #071c99;
+    --color-secondary: #0b175f ;
+    --color-blackBg: #F3F3F3;
+    --color-favorite: #FFD700;
+    --font-primary: Dancing Script, serif;
+    --font-secondary: Playfair Display, serif;
+    --font-hero: Bouncy;
+    --font-coza: Corza;
+
+
+}
+
+@layer base{
+
+}
+
+@layer components{
+    .swiper{
+        width:100%;
+        height: 100%;
+    }
+    
+    .swiper-slide {
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+     .swiper-button-prev {
+        display: none !important;
+     }
+     .swiper-button-next{
+        @apply bg-white p-5 rounded-full z-50 shadow-md
+     }
+    
+     .swiper-button-prev:after, .swiper-button-next:after{
+        font-size: 16px !important;
+     }
+    
+     .btn-primary {
+        @apply bg-primary  px-12 py-2 rounded-md text-base font-secondary font-bold  hover:bg-white hover:border-primary border-1 hover:text-white transition-all duration-200 cursor-pointer
+     }
+    
+    .html{
+       scroll-behavior: smooth;
+    }
+    
+}
+
+
+
