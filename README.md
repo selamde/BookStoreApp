@@ -46,5 +46,5 @@ npm run dev
 
 - Mobile view
 ![Reference Image](public/p1.png)
-![Reference Image](public/p1.png)
+![Reference Image](public/p2.png)
 
